@@ -58,13 +58,13 @@ const Auth = () => {
                         </h2>
                         <div className="flex flex-col gap-4">
                             {variant == 'register' && (
-                                <Input label="Username = Demo"
+                                <Input label="Username ="
                                 onChange={(ev: any) => setName (ev.target.value) }
                                 id="name"
                                 value={name}/>
                             )}
                             
-                            <Input label="Email"
+                            <Input label="Email = demo@mail.com"
                             onChange={(ev: any) => setEmail (ev.target.value) }
                             id="email"
                             type="email"
